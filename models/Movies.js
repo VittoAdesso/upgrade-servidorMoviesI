@@ -10,6 +10,7 @@ const moviesSchema = new Schema({
     genre: { type: String },
 
 }, {
+    //fechas de modificación y creación 
     timestamps: true
 });
 
